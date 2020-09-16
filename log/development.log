@@ -2510,3 +2510,572 @@ Processing by ArticlesController#show as HTML
 Completed 200 OK in 14ms (Views: 7.6ms | ActiveRecord: 0.4ms | Allocations: 4571)
 
 
+Started GET "/articles" for ::1 at 2020-09-16 11:32:46 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 3832)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/jhonatan/Microverse/Rails_Blog_Apps/public/packs
+[Webpacker] NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+NOTE: Gem::Platform.match is deprecated; use Gem::Platform.match_spec? instead. It will be removed in Rubygems 4
+Gem::Platform.match called from /home/jhonatan/.ruby/gems/bundler-2.1.4/lib/bundler/index.rb:198.
+
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.1
+Time: 1579ms
+Built at: 09/16/2020 11:32:50 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 4085ms (Views: 4081.4ms | ActiveRecord: 0.2ms | Allocations: 9697)
+
+
+Started GET "/articles/8" for ::1 at 2020-09-16 11:32:54 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:8:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 195)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 10.9ms | ActiveRecord: 0.4ms | Allocations: 4432)
+
+
+Started GET "/articles/8" for ::1 at 2020-09-16 11:33:27 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:8:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 194)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 0.2ms | Allocations: 5071)
+
+
+Started GET "/articles/8" for ::1 at 2020-09-16 11:33:30 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:8:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 72)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 0.2ms | Allocations: 4052)
+
+
+Started GET "/articles/8" for ::1 at 2020-09-16 11:33:32 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:8:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 66)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 0.2ms | Allocations: 4047)
+
+
+Started GET "/articles/8" for ::1 at 2020-09-16 11:36:15 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:8:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 209)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 9.2ms | ActiveRecord: 0.2ms | Allocations: 5076)
+
+
+Started GET "/articles/8" for ::1 at 2020-09-16 11:36:17 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:8:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 85)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 15.5ms | ActiveRecord: 0.4ms | Allocations: 4067)
+
+
+Started DELETE "/articles/8" for ::1 at 2020-09-16 11:36:20 -0500
+  
+AbstractController::ActionNotFound (The action 'destroy' could not be found for ArticlesController):
+  
+actionpack (6.0.3.3) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started DELETE "/articles/8" for ::1 at 2020-09-16 11:37:54 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"j0D//kNZnukXNucRTSwN3q6KjZZXAGpSAWpWvhN3t3md6q65a3IIZcc82gW5FRgagJrcKG9bXhLXSK3t08WsjQ==", "id"=>"8"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1854)
+
+
+  
+NoMethodError (undefined method `destroy' for "8":String):
+  
+app/controllers/articles_controller.rb:23:in `destroy'
+Started GET "/articles/8" for ::1 at 2020-09-16 11:38:56 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:8:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 224)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 5.4ms | ActiveRecord: 1.1ms | Allocations: 10477)
+
+
+Started DELETE "/articles/8" for ::1 at 2020-09-16 11:39:03 -0500
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"cSLiYUn5vnDgffo+nGRwwqVYAdxvr8HChe02WCwzAodjiLMmYdIo/DB3xypoXWUGi0hQYlf09YJTz80L7IEZcw==", "id"=>"8"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 1890)
+
+
+  
+NoMethodError (undefined method `destroy' for "8":String):
+  
+app/controllers/articles_controller.rb:23:in `destroy'
+Started DELETE "/articles/8" for ::1 at 2020-09-16 11:40:33 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"cSLiYUn5vnDgffo+nGRwwqVYAdxvr8HChe02WCwzAodjiLMmYdIo/DB3xypoXWUGi0hQYlf09YJTz80L7IEZcw==", "id"=>"8"}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:23:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:24:in `destroy'
+  [1m[36mArticle Destroy (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 8]]
+  ↳ app/controllers/articles_controller.rb:24:in `destroy'
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:24:in `destroy'
+Redirected to http://localhost:3000/articles/8
+Completed 302 Found in 26ms (ActiveRecord: 4.7ms | Allocations: 7138)
+
+
+Started GET "/articles/8" for ::1 at 2020-09-16 11:40:33 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:8:in `show'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.3ms | Allocations: 1183)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=8):
+  
+app/controllers/articles_controller.rb:8:in `show'
+Started GET "/articles" for ::1 at 2020-09-16 11:41:48 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 4136)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 18.2ms | ActiveRecord: 1.2ms | Allocations: 8156)
+
+
+Started GET "/articles/9" for ::1 at 2020-09-16 11:41:51 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:8:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 91)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.3ms | Allocations: 4186)
+
+
+Started DELETE "/articles/9" for ::1 at 2020-09-16 11:41:55 -0500
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"qKv3fj17clR8NQIsQoCh8Ie4f6eBHoWyyNicHoqTYHG6AaY5FVDk2Kw/Pzi2ubQ0qaguGblFsfIe+mdNSiF7hQ==", "id"=>"9"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1217)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  
+app/controllers/articles_controller.rb:23:in `destroy'
+Started DELETE "/articles/9" for ::1 at 2020-09-16 11:44:53 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"qKv3fj17clR8NQIsQoCh8Ie4f6eBHoWyyNicHoqTYHG6AaY5FVDk2Kw/Pzi2ubQ0qaguGblFsfIe+mdNSiF7hQ==", "id"=>"9"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:23:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:24:in `destroy'
+  [1m[36mArticle Destroy (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 9]]
+  ↳ app/controllers/articles_controller.rb:24:in `destroy'
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:24:in `destroy'
+Redirected to http://localhost:3000/articles/%23%3CArticle::ActiveRecord_Relation:0x000055ddf1f31158%3E
+Completed 302 Found in 22ms (ActiveRecord: 4.2ms | Allocations: 7133)
+
+
+Started GET "/articles/%23%3CArticle::ActiveRecord_Relation:0x000055ddf1f31158%3E" for ::1 at 2020-09-16 11:44:53 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"#<Article::ActiveRecord_Relation:0x000055ddf1f31158>"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:8:in `show'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.2ms | Allocations: 1181)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=#<Article::ActiveRecord_Relation:0x000055ddf1f31158>):
+  
+app/controllers/articles_controller.rb:8:in `show'
+Started GET "/articles" for ::1 at 2020-09-16 11:45:16 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 978)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.3ms | Allocations: 4596)
+
+
+Started GET "/articles/7" for ::1 at 2020-09-16 11:45:21 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:8:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 10.7ms | ActiveRecord: 0.2ms | Allocations: 4059)
+
+
+Started DELETE "/articles/7" for ::1 at 2020-09-16 11:45:25 -0500
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"mQUExv5swNXrjSLxl0iSe2We7lZH8rbVQCIv3QYfZSCLr1WB1kdWWTuHH+VjcYe/S46/6H+pgpWWANSOxq1+1A==", "id"=>"7"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:23:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:24:in `destroy'
+  [1m[36mArticle Destroy (0.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 7]]
+  ↳ app/controllers/articles_controller.rb:24:in `destroy'
+  [1m[35m (8.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:24:in `destroy'
+Redirected to http://localhost:3000/articles/%23%3CArticle::ActiveRecord_Relation:0x000055ddf1eaa158%3E
+Completed 302 Found in 21ms (ActiveRecord: 9.7ms | Allocations: 3759)
+
+
+Started GET "/articles/%23%3CArticle::ActiveRecord_Relation:0x000055ddf1eaa158%3E" for ::1 at 2020-09-16 11:45:25 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"#<Article::ActiveRecord_Relation:0x000055ddf1eaa158>"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:8:in `show'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.2ms | Allocations: 1175)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=#<Article::ActiveRecord_Relation:0x000055ddf1eaa158>):
+  
+app/controllers/articles_controller.rb:8:in `show'
+Started GET "/articles" for ::1 at 2020-09-16 11:45:39 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 908)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.3ms | Allocations: 4363)
+
+
+Started GET "/articles/4" for ::1 at 2020-09-16 11:47:23 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:8:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 98)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 6.6ms | ActiveRecord: 1.0ms | Allocations: 7552)
+
+
+Started DELETE "/articles/4" for ::1 at 2020-09-16 11:47:26 -0500
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"68JZctUrLuR0CKXgdbqu8f/O7QV0ALc4msCUCqyNA3H5aAg1/QC4aKQCmPSBg7s10d68u0xbg3hM4m9ZbD8YhQ==", "id"=>"4"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:23:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:24:in `destroy'
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 4]]
+  ↳ app/controllers/articles_controller.rb:24:in `destroy'
+  [1m[35m (7.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:24:in `destroy'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 20ms (ActiveRecord: 8.3ms | Allocations: 3729)
+
+
+Started GET "/articles" for ::1 at 2020-09-16 11:47:26 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 882)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.3ms | Allocations: 4337)
+
+
+Started GET "/articles/6" for ::1 at 2020-09-16 11:47:34 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:8:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 88)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 9.6ms | ActiveRecord: 0.2ms | Allocations: 4060)
+
+
+Started DELETE "/articles/6" for ::1 at 2020-09-16 11:47:38 -0500
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5Ekfgma769eC6hn22CZNPQxDaOWX0C9U7H0bMCfkGSH2407FTpB9W1LgJOIsH1j5IlM5W6+LGxQ6X+Bj51YC1Q==", "id"=>"6"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:23:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:24:in `destroy'
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 6]]
+  ↳ app/controllers/articles_controller.rb:24:in `destroy'
+  [1m[35m (7.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:24:in `destroy'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 21ms (ActiveRecord: 8.0ms | Allocations: 3732)
+
+
+Started GET "/articles" for ::1 at 2020-09-16 11:47:38 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 819)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.2ms | Allocations: 4276)
+
+
