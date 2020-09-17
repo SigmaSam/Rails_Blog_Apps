@@ -24,6 +24,9 @@ gem 'jbuilder', '~> 2.7'
 
 gem "paperclip"
 
+gem 'sorcery'
+
+
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
